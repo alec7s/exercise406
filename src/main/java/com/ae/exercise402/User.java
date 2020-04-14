@@ -38,7 +38,7 @@ public class User {
     public User() {
     }
 
-    public User(String email, String password, String firstname, String lastName, boolean enabled,
+    public User(String email, String password, String firstName, String lastName, boolean enabled,
                 String username) {
         this.setEmail(email);
         this.setPassword(password);
@@ -82,12 +82,12 @@ public class User {
         this.firstName = firstName;
     }
 
-    public String getLastname() {
+    public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastname) {
-        this.lastName = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public boolean isEnabled() {
